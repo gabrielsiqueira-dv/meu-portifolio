@@ -22,7 +22,7 @@
 
 .projetos .container-projetos .projeto:hover,
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .projetos .container-projetos .projeto img {
@@ -44,12 +44,14 @@
 .projetos .container-projetos .projeto .informacoes-projeto p{
     font-size: 1.8rem;
     font-size: 700;
+    color: black;
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2){
     font-weight: 700;
     margin-top: 10px;
     font-size: 1.4;
+    
 }
 
 .projetos .container-projetos .projeto h3 {
