@@ -33,13 +33,17 @@
 
 .projetos .container-projetos .projeto .informacoes-projeto {
     padding: 20px;
-    background-color: var(--cor-fundo-escuro);
+    background-color: var(--cor-fundo);
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
     transition: all 0.3 ease;
+}
+.projetos .container-projetos .projeto .informacoes-projeto p{
+    font-size: 1.8rem;
+    font-size: 700;
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2){
@@ -53,7 +57,7 @@
     font-weight: 500;
     position: absolute;
     bottom: 0;
-    background-color: var(--cor-fundo-escuro);
+    background-color: var(--cor-fundo);
     width: 100%;
     padding-left: 20px;
     padding-bottom: 10px;
