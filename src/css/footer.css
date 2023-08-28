@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 7rem;
+    text-align: center;
+    background-color: #404354;
+    padding: 5rem;
+    border-top: 2px solid blue;
+}
+.footer nav ul{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.footer nav ul li {
+    margin: 10px;
+    margin-bottom: 20px;
+border-radius: 30px;
+background-color: var(--cor-branca);
+padding: 0 5px;
+transition: 0.5s;
+
+}
+.footer nav ul li a{
+    font-size: 1.6rem;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
+.footer nav ul li:hover {
+    background-color: var(--cor-secundaria);
+}

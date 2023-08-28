@@ -1,0 +1,121 @@
+
+.header{
+    padding: 25px 10px;
+}
+
+.header .container .logo{
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    border: 2px solid var(--cor-branca);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 59px;
+    text-align: center;
+    text-decoration: underline;
+    transition: 0.2s;
+
+
+}
+.header a:hover .logo {
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+
+}
+
+
+.header .container .row nav{
+    position: relative;
+    background-color: var(--cor-branca);
+    padding: 18px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 50px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+.header .container nav, .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .menu{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.header .container nav input:checked ~ .menu{
+    list-style: none;
+    width: 350px;
+}
+ .menu li{
+    margin: 0 10px;
+}
+ .menu li a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+font-weight: 600;
+transition: 0.5s;
+font-size: 1.6rem;
+
+}
+ .menu li a:hover{
+    color:var(--cor-secundaria);
+}
+
+.header .container nav input{
+    width: 40px;
+    height:30px;
+    cursor: pointer;
+    opacity: 0;
+    
+}
+.header .container nav span{
+    position: absolute;
+    left: 25px;
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    border-radius: 50px;
+    background-color: red;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.header .container nav input:checked ~ span{
+    background-color: red;
+}
+.header .container nav span:nth-child(2){
+    transform: translateY(-8px);
+}
+.header .container nav input:checked ~ span:nth-child(2){
+    transform: translateY(0) rotate(-45deg);
+    
+}
+.header .container nav span:nth-child(3){
+    transform: translateY(8px);
+
+}
+.header .container nav input:checked ~ span:nth-child(3){
+    transform: translateY(0) rotate(45deg);
+}
+
+@media(max-width:688px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .header .container  nav input:checked ~ .menu{
+        max-width: 150px;
+    max-height: 150px;
+
+    }
+    .menu li {
+        margin: 3px;
+    }
+  
+}
+@media

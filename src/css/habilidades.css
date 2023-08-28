@@ -1,0 +1,43 @@
+.habilidades .container-habilidades{
+    text-align: center;
+    justify-content: center;
+
+}
+.habilidades .container-habilidades .informacoes{
+    max-width: 350px;
+background-color: var(--cor-branca);
+ margin: 10px 10px;
+    padding: 40px 20px;
+}
+
+.habilidades .container-habilidades .informacoes p,.habilidades .container-habilidades .informacoes h3,.habilidades .container-habilidades .informacoes .logo i{
+    transition: 0.5s;  
+   
+}
+.habilidades .container-habilidades .informacoes h3{
+    color: var(--cor-primaria);
+    font-size: var(--fonte-grande);
+    font-weight: 700;
+    margin-bottom: 20px;
+ 
+}
+.habilidades .container-habilidades .informacoes i{
+    font-size: 8rem;
+ 
+}
+.habilidades .container-habilidades .informacoes .logo-html i{
+   color:#FF4500;
+}
+.habilidades .container-habilidades .informacoes .logo-css i{
+    color:#1E90FF;
+}
+.habilidades .container-habilidades .informacoes .logo-git i{
+    color:#000;
+}
+.habilidades .container-habilidades .informacoes .logo-github i{
+    color:#171515;
+}
+.habilidades .container-habilidades .informacoes:hover{
+    background:linear-gradient(#634f4f,blue) ;
+    opacity: 5;
+}

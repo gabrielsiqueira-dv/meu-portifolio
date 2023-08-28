@@ -1,0 +1,18 @@
+:root {
+  --cor-fundo:#4C516D;
+  --cor-branca:#FFFFFF;
+  --cor-secundaria:#0000CD;
+  --cor-primaria:#79ab7d;
+  --cor-preto:#000000;
+}
+
+:root{
+  --fonte-primaria:'Open Sans', sans-serif
+  --fonte-secundaria:'Noto Sans', sans-serif;
+  --fonte-gigante:4.7rem;
+  --fonte-grande:3rem;
+  --fonte-normal:1.6rem;
+}
+:root{
+  --mobile-padding:30px;
+}
