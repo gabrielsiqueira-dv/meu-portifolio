@@ -77,6 +77,7 @@
     transition: 0.5s;
   background-color: var(--cor-branca);
 }
+
 .redes-sociais ul li:hover{
     width: 180px;
     box-shadow: 0 10px 25px rgba(0,0,0,0);
@@ -109,6 +110,7 @@
 
 .redes-sociais ul li:hover::after{
 opacity: 0.5;
+
 }
 .redes-sociais ul li i{
     color:var(--cor-primaria);
@@ -123,8 +125,15 @@ font-size: 1.75rem;
 transition-delay: 0.25rem;
 
 }
-.redes-sociais ul li a,.redes-sociais ul li span{
+.redes-sociais ul li {
+    position: relative;   
+}.redes-sociais ul li span{
     position: absolute;
+    top: 40%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+  
+   
 }
 .redes-sociais ul li .titulo{
     color: #fff;
